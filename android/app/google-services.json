@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "93980769232",
+    "firebase_url": "https://turnmeondb.firebaseio.com",
+    "project_id": "turnmeondb",
+    "storage_bucket": "turnmeondb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93980769232:android:7a8692d28b795b0c",
+        "android_client_info": {
+          "package_name": "com.application.turnmeon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93980769232-tt1egljkmrkft8khkgccnhrjb8892rdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.turnmeon",
+            "certificate_hash": "0358e900ed496587d26cf50db3b8cd250aad3984"
+          }
+        },
+        {
+          "client_id": "93980769232-n6sopul4tsvdiah761nsn8q3ltjsu5oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBViGSBBhKr6slQGk_X2VAlLyJhRIPHqvE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93980769232-n6sopul4tsvdiah761nsn8q3ltjsu5oq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "93980769232-qvb8dodteloqalvu8i2m5jhu8o1j25gl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.application.turnmeon"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
