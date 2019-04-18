@@ -53,8 +53,6 @@ class HomeScreenState extends State<HomeScreen> {
                 Tab(icon: Icon(Icons.chat, size: _iconSize)),
                 Tab(icon: Icon(Icons.lightbulb_outline, size: _iconSize)),
                 Tab(icon: Icon(Icons.settings, size: _iconSize)),
-
-                //Tab(icon: Icon(Icons.settings, size: _iconSize)),
               ],
             ),
           ),
@@ -212,22 +210,11 @@ class HomeScreenState extends State<HomeScreen> {
 
     return TabBarView(
       children: [
-        //_buildRecipes(recipeType: RecipeType.food),
-        //_buildRecipes(recipeType: RecipeType.drink),
-        //_buildRecipes(ids: appState.favorites),
-        //Center(child: Icon(Icons.settings)),
-
         _buildProfile(),
         _buildFriendsList(),
-
         Center(child: Icon(Icons.chat)),
-        //_buildToDoLists(appState.user.uid),
-        //Center(child: Icon(Icons.home)),
         _buildCameraButton(),
-        //_buildToDoLists(appState.user.uid),
         _buildSettings(),
-        //Center(child: Icon(Icons.settings)),7
-
       ],
     );
   }

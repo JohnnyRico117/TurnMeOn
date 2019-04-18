@@ -214,7 +214,7 @@ class _StateWidgetState extends State<StateWidget> {
 //            {'id': firebaseUser.uid, 'username': firebaseUser.displayName, 'photoUrl': firebaseUser.photoUrl});
       }
 
-      List<String> favorites = await getFavorites();
+      //List<String> favorites = await getFavorites();
       String bday = await getBirthday();
       String likes = await getLikes();
       List<String> friends = await getFriends();
@@ -225,7 +225,7 @@ class _StateWidgetState extends State<StateWidget> {
       int points = await getPoints();
       setState(() {
         state.isLoading = false;
-        state.favorites = favorites;
+        //state.favorites = favorites;
         state.birthday = bday;
         state.likes = likes;
         state.friends = friends;

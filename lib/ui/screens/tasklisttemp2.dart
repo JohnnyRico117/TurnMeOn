@@ -101,11 +101,7 @@ class _TaskListTempState extends State<TaskListTemp2>
 
 
 
-  Future<List<String>> getTasks(String id) async {
 
-    return [];
-
-  }
 
 
   Future<Widget> _buildWidget(DocumentReference ref) async {
